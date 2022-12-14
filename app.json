@@ -1,0 +1,12 @@
+{
+  "name": "RentXApp",
+  "displayName": "RentXApp",
+  "expo": {
+    "name": "RentXApp",
+    "slug": "RentXApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -3,7 +3,7 @@ export default {
     header: "#1B1B1F",
     backgroundPrimary: "#F4F5F6",
     backgroundSecondary: "#FFFFFF",
-    text: "#FA7A80",
+    text: "#7A7A80",
     textDetail: "#AEAEB3",
     title: "#47474D",
     line: "#EBEBF0",

@@ -2,7 +2,20 @@ import React from "react";
 import BackButton from "../../components/BackButton";
 import ImageSlider from "../../components/ImageSlider";
 
-import { CarImages, Container, Header } from "./styles";
+import {
+  CarImages,
+  Container,
+  Header,
+  Content,
+  Details,
+  Description,
+  Brand,
+  Name,
+  Rent,
+  Period,
+  Price,
+  About,
+} from "./styles";
 
 const CarDetails: React.FC = () => {
   return (
@@ -17,6 +30,23 @@ const CarDetails: React.FC = () => {
           ]}
         />
       </CarImages>
+      <Content>
+        <Details>
+          <Description>
+            <Brand>Lamborghni</Brand>
+            <Name>Huracan</Name>
+          </Description>
+          <Rent>
+            <Period>Ao dia</Period>
+            <Price>R$ 580</Price>
+          </Rent>
+        </Details>
+
+        <About>
+          Este é automóvel desportivo. Surgiu do lendário touro de lide indultado na praça Real Maestranza de Sevilla. É
+          um belíssimo carro para quem gosta de acelerar.
+        </About>
+      </Content>
     </Container>
   );
 };
